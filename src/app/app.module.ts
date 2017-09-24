@@ -16,7 +16,6 @@ import { Actions } from '@ngrx/effects';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    Actions,
     StoreModule.forRoot({ app: AppReducer }),
     EffectsModule.forRoot([AppEffects]),
   ],
